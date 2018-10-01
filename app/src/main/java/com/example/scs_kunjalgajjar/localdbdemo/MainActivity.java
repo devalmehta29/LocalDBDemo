@@ -45,11 +45,11 @@ Button btn;
         ContentValues cv= new ContentValues();
         cv.put("C_name","rohit");
         cv.put("c_id",5);
-        db.insert("customer",null,cv);
-        db.update("customer",cv,"c_id=?",new String[]{"5"});
-        db.delete("customer","c_id=? and c_name=?",new String[]{"5","rohit"});
-        db.query("customer",null,null,null,null,null,"asc");
-        
+//        db.insert("customer",null,cv);
+//        db.update("customer",cv,"c_id=?",new String[]{"5"});
+//        db.delete("customer","c_id=? and c_name=?",new String[]{"5","rohit"});
+//        db.query("customer",null,null,null,null,null,"asc");
+
         Toast.makeText(this,"Record inserted", Toast.LENGTH_SHORT).show();
     }
 
